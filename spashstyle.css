@@ -12,13 +12,11 @@ body{
     background: linear-gradient(90deg, rgba(23,28,53,1) 0%, rgba(120,83,185,1) 46%, rgba(202,101,122,1) 100%);
 }
 .img{
-    width: 90%;
+    width: 350px;
     margin: auto;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 img{
-    width: 350px;
+    width: 100%;
 }
 button{
     width: 80%;
