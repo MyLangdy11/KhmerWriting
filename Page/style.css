@@ -1,0 +1,115 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Kantumruy+Pro:wght@300&family=Koh+Santepheap:wght@700&display=swap');
+        *,body,.item{
+            font-family: 'Koh Santepheap', cursive;
+        }
+        .about{
+            font-family: 'Angkor', cursive;
+        }
+        body {
+            padding:5px;
+            padding-bottom:60px;
+            padding-top:12px;
+            line-height: 30px;
+            font-size: 20px;
+        }
+
+        /* h2,a{
+            font-weight:normal;
+
+        } */
+
+        #title {
+            color:#B71C1C;
+            margin: 0 0 20px 0;
+        }
+
+        #subtitle{
+            color:#233CEE;
+            margin: 0 0 20px 0;
+            font-weight:bold;
+        }
+		h1{
+            color:#BC4104 ;
+            margin: 20px 0 20px 0;
+            /* border-bottom: 3px solid #148AF2} */
+        }
+        a {
+            font-family: 'Koh Santepheap', cursive;
+            color:rgb(12, 148, 85);
+            margin: 20px 0 20px 0;
+        }
+        a:hover{
+            color:red;
+        }
+        .under{
+            height: 1px;
+            width: 100%;
+            /* background-color: #148AF2; */
+        }
+        img {
+            max-width:95%;
+            max-height:95%;
+            min-width:40px;
+            min-height:40px;
+            margin:3px auto 3px auto;
+            display:block;
+        }
+
+        p {
+            margin:10px 0;
+            padding:0;
+			text-align:justify;
+            font-family: 'Koh Santepheap', cursive;
+			color: #148AF2;
+            padding:10px 10px;
+        }
+		p.box{
+	margin: 20px 10px;
+	border: 1px solid #148AF2;
+	padding: 10px;
+	text-align: center;
+	background: red;
+	color:red;
+	font-weight:bold;
+		}
+		
+.top-container {
+  /* background-color: #148AF2; */
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+	text-align: center;
+  padding: 10px 16px;
+  /* background: #148AF2; */
+  color: #f1f1f1;
+}
+input{
+    padding-left: 30px;
+    font-size:1.2em;
+    color:#148AF2;
+    border-radius:20px;
+    border:2px solid #148AF2;
+    margin-bottom:10px;
+    outline:none;
+}
+#footer{
+    font-family: 'Koh Santepheap', cursive;
+    bottom: 0;
+    position: sticky;
+}
+
+.sticky{
+    background-color: red;width: 100%;color:yellow;
+    bottom: 30;
+    position: sticky;
+}
+
+h1{
+    font-family: 'Angkor', cursive;
+}
+input{
+    font-family: 'Koh Santepheap', cursive;
+}
